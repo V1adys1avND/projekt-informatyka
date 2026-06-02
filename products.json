@@ -4,244 +4,244 @@
     "name": "Ekologiczne marchewki 1kg",
     "price": 4.99,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/5084515/pexels-photo-5084515.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/marchewki.jpg"
   },
   {
     "id": 2,
     "name": "Świeży brokuł BIO 1szt",
     "price": 6.8,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/37091856/pexels-photo-37091856.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/brokul.jpg"
   },
   {
     "id": 3,
     "name": "Pomidorki koktajlowe BIO 250g",
     "price": 7.5,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/5418661/pexels-photo-5418661.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/pomidory-koktailowe.jpg"
   },
   {
     "id": 4,
     "name": "Ekologiczne ziemniaki 2kg",
     "price": 8.4,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/35113272/pexels-photo-35113272.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/ziemniaki.jpg"
   },
   {
     "id": 5,
-    "name": "Czosneks BIO (3 szt)",
+    "name": "Czosnek BIO (3 szt)",
     "price": 5.99,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/36936000/pexels-photo-36936000.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/czosnek.jpg"
   },
   {
     "id": 6,
     "name": "Świeży szpinak BIO 200g",
     "price": 6.9,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/37113938/pexels-photo-37113938.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/szpinak.jpg"
   },
   {
     "id": 7,
     "name": "Ekologiczna cebula czerwona 1kg",
     "price": 5.2,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/37091858/pexels-photo-37091858.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/cebula-czerwona.jpg"
   },
   {
     "id": 8,
     "name": "Ogórki polne BIO 1kg",
     "price": 9.5,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/5425794/pexels-photo-5425794.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/ogorki.jpg"
   },
   {
     "id": 9,
     "name": "Papryka czerwona BIO 500g",
     "price": 11.2,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/30893241/pexels-photo-30893241.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/papryka-czerwona.jpg"
   },
   {
     "id": 10,
     "name": "Świeża pęczka rzodkiewki",
     "price": 3.5,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/16723207/pexels-photo-16723207.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/rzodkiewka.jpg"
   },
   {
     "id": 11,
     "name": "Ekologiczne cukinie zielone 1kg",
     "price": 7.8,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/7890188/pexels-photo-7890188.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/cukinia.jpg"
   },
   {
     "id": 12,
     "name": "Awokado Hass BIO 1szt",
     "price": 6.49,
     "category": "vegetables",
-    "image": "https://images.pexels.com/photos/4975353/pexels-photo-4975353.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/awokado.jpg"
   },
   {
     "id": 13,
     "name": "Ekologiczne jabłka Jonagored 1kg",
     "price": 6.99,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/30893357/pexels-photo-30893357.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/jablka.jpg"
   },
   {
     "id": 14,
     "name": "Certyfikowane banany BIO 1kg",
     "price": 8.99,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/29994023/pexels-photo-29994023.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/banany.jpg"
   },
   {
     "id": 15,
     "name": "Borówki BIO 250g",
     "price": 13.5,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/3084068/pexels-photo-3084068.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/borowki.jpg"
   },
   {
     "id": 16,
     "name": "Ekologiczne cytryny 500g",
     "price": 7.2,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/27556847/pexels-photo-27556847.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/cytryny.jpg"
   },
   {
     "id": 17,
     "name": "Ekologiczne pomarańcze deserowe 1kg",
     "price": 9.99,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/30503649/pexels-photo-30503649.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/pomarancze.jpg"
   },
   {
     "id": 18,
     "name": "Ekologiczne truskawki 500g",
     "price": 15.8,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/15819131/pexels-photo-15819131.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/truskawki.jpg"
   },
   {
     "id": 19,
     "name": "Gruszki Conference BIO 1kg",
     "price": 8.5,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/30862951/pexels-photo-30862951.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/gruszki.jpg"
   },
   {
     "id": 20,
     "name": "Świeże maliny BIO 125g",
     "price": 10.9,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/4113810/pexels-photo-4113810.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/maliny.jpg"
   },
   {
     "id": 21,
     "name": "Ekologiczne kiwi 1szt",
     "price": 2.8,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/13643025/pexels-photo-13643025.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/kiwi.jpg"
   },
   {
     "id": 22,
     "name": "Mango dojrzałe ekologiczne 1szt",
     "price": 9.5,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/37065935/pexels-photo-37065935.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/mango.jpg"
   },
   {
     "id": 23,
     "name": "Arbuz czerwony BIO 1kg",
     "price": 5.5,
     "category": "fruits",
-    "image": "https://images.pexels.com/photos/2562548/pexels-photo-2562548.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/arbuz.jpg"
   },
   {
     "id": 24,
     "name": "Naturalny miód lipowy BIO 400g",
     "price": 29.9,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/6660246/pexels-photo-6660246.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/miod.jpg"
   },
   {
     "id": 25,
     "name": "Oliwa z oliwek Extra Virgin 500ml",
     "price": 38.5,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/3737644/pexels-photo-3737644.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/oliwa-z-oliwek.jpg"
   },
   {
     "id": 26,
     "name": "Płatki owsiane Jumbo BIO 500g",
     "price": 5.4,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/4856744/pexels-photo-4856744.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/platki-owsiane.jpg"
   },
   {
     "id": 27,
     "name": "Naturalny sok malinowy 250ml",
     "price": 11.9,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/7262794/pexels-photo-7262794.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/sok-malinowy.jpg"
   },
   {
     "id": 28,
     "name": "Ekologiczne ziarna kawy Arabika 250g",
     "price": 26.99,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/7262705/pexels-photo-7262705.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/ziarna-arabika.jpg"
   },
   {
     "id": 29,
     "name": "Sypana zielona herbata BIO 100g",
     "price": 14.5,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/7055115/pexels-photo-7055115.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/zielona-herbata.jpg"
   },
   {
     "id": 30,
     "name": "Ekologiczny ryż jaśminowy pełnoziarnisty 500g",
     "price": 7.9,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/8287244/pexels-photo-8287244.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/ryz.jpg"
   },
   {
     "id": 31,
     "name": "Gryka surowa BIO 500g",
     "price": 8.2,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/7055114/pexels-photo-7055114.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/gryka.jpg"
   },
   {
     "id": 32,
     "name": "Dżem truskawkowy słodzony jabłkami 200g",
     "price": 9.8,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/9475697/pexels-photo-9475697.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/dzem-truskawkowo-jablkowy.jpg"
   },
   {
     "id": 33,
     "name": "Masło orzechowe 100% ekologiczne 300g",
     "price": 16.9,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/3737648/pexels-photo-3737648.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/maslo-orzechowe.jpg"
   },
   {
     "id": 34,
     "name": "Mąka pełna orkiszu BIO 1kg",
     "price": 8.9,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/3737639/pexels-photo-3737639.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/maka.jpg"
   },
   {
     "id": 35,
     "name": "Ocet jabłkowy niepasteryzowany 250ml",
     "price": 12.5,
     "category": "pantry",
-    "image": "https://images.pexels.com/photos/8580742/pexels-photo-8580742.jpeg?auto=compress&cs=tinysrgb&w=400"
+    "image": "./assets/products/ocet-jablkowy.jpg"
   }
 ]

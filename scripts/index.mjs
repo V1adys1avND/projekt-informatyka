@@ -1,6 +1,50 @@
 let products = []
 let cart = JSON.parse(localStorage.getItem('eko_koszyk')) || []
 
+// POWIADOMIENIA
+function pokazKomunikat(tresc, czyBlad = false) {
+  const starePowiadomienie = document.getElementById('eko-powiadomienie')
+  if (starePowiadomienie) starePowiadomienie.remove()
+
+  const powiadomienie = document.createElement('div')
+  powiadomienie.id = 'eko-powiadomienie'
+
+  powiadomienie.style.position = 'fixed'
+  powiadomienie.style.bottom = '20px'
+  powiadomienie.style.right = '20px'
+  powiadomienie.style.backgroundColor = czyBlad ? '#ff4d4d' : '#2e6f40'
+  powiadomienie.style.color = '#ffffff'
+  powiadomienie.style.padding = '16px 24px'
+  powiadomienie.style.borderRadius = '6px'
+  powiadomienie.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)'
+  powiadomienie.style.zIndex = '9999'
+  powiadomienie.style.display = 'flex'
+  powiadomienie.style.alignItems = 'center'
+  powiadomienie.style.gap = '15px'
+  powiadomienie.style.fontWeight = '600'
+  powiadomienie.style.fontSize = '15px'
+
+  powiadomienie.innerHTML = `
+    <span>${tresc}</span>
+    <button id="zamknij-powiadomienie" style="background: none; border: none; color: #fff; font-size: 20px; cursor: pointer; font-weight: bold; line-height: 1;">&times;</button>
+  `
+
+  document.body.appendChild(powiadomienie)
+
+  document
+    .getElementById('zamknij-powiadomienie')
+    .addEventListener('click', () => {
+      powiadomienie.remove()
+    })
+
+  setTimeout(() => {
+    if (document.body.contains(powiadomienie)) {
+      powiadomienie.remove()
+    }
+  }, 5000)
+}
+
+// KOSZYK
 function updateCartCounter() {
   const counter = document.getElementById('licznik-koszyka')
   if (counter) {
@@ -84,6 +128,16 @@ function setupAddToCartEvents() {
 
       const matchedProduct = products.find((p) => p.id === productId)
       const existingInCart = cart.find((p) => p.id === productId)
+
+      let totalQty = chosenQty
+      if (existingInCart) {
+        totalQty = existingInCart.qty + chosenQty
+      }
+
+      if (totalQty > 99) {
+        pokazKomunikat('Maksymalna ilość produktu to 99 sztuk!', true)
+        return
+      }
 
       if (existingInCart) {
         existingInCart.qty += chosenQty
