@@ -1,0 +1,529 @@
+/* GLOBALNE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #fcfbfa;
+  color: #333d35;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NAWIGACJA */
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e1ebd5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e6f40;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  user-select: none;
+}
+
+header .logo img {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+nav a:hover,
+nav a.active {
+  color: #2e6f40;
+}
+
+/* LAYOUT */
+.kontener {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  flex: 1;
+  display: block;
+  width: 100%;
+}
+
+.kontener-waski {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  flex: 1;
+}
+
+/* WYSZUKIWARKA I FILTRY */
+.hero {
+  background-color: #eef5e9;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  color: #2e6f40;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.kontrola-sklepu {
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#wyszukiwarka {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filtry {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-filtr {
+  padding: 10px 15px;
+  border: 1px solid #2e6f40;
+  background: transparent;
+  color: #2e6f40;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-filtr.active,
+.btn-filtr:hover {
+  background: #2e6f40;
+  color: white;
+}
+
+/* SIATKA PRODUKTÓW */
+.grid-produktow {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  gap: 25px !important;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sekcja-koszyka {
+  flex: 2;
+}
+
+.sekcja-kasy {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e1ebd5;
+}
+
+/* PRODUKT */
+.wybor-ilosci-sklep {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.wybor-ilosci-sklep select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333d35;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-dodano-aktywne {
+  background-color: #777777 !important;
+  color: #ffffff !important;
+  cursor: not-allowed !important;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  user-select: none;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+}
+
+/* PRZYCISKI */
+button {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+.karta-produktu {
+  background: white;
+  border: 1px solid #eef5e9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.tag-bio {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #eef5e9;
+  color: #2e6f40;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.karta-produktu img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.karta-produktu h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333d35;
+}
+
+.karta-produktu .cena {
+  color: #2e6f40;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.btn-dodaj,
+.btn-kup {
+  background: #2e6f40;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-dodaj:hover,
+.btn-kup:hover {
+  background: #235431;
+  transform: translateY(-1px);
+}
+
+.btn-usun-mini {
+  background: #777;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-usun-mini:hover {
+  background: #666;
+  transform: translateY(-1px);
+}
+
+.btn-anuluj-zamowienie:hover {
+  background-color: #cc3b3b !important;
+  transform: translateY(-1px);
+}
+
+/* ELEMENTY KOSZYKA */
+.element-koszyka {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #eef5e9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s ease;
+}
+
+.element-koszyka:hover {
+  transform: translateY(-2px);
+  border-color: #e1ebd5;
+}
+
+.dane-produktu-koszyk h4 {
+  font-size: 16px;
+  color: #333d35;
+  margin-bottom: 4px;
+}
+
+.dane-produktu-koszyk small {
+  color: #7f8c8d;
+  font-size: 13px;
+}
+
+.prawa-strona-koszyk {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.kontrola-ilosci {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fcfbfa;
+}
+
+.kontrola-ilosci button {
+  padding: 8px 12px;
+  background: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333d35;
+}
+
+.kontrola-ilosci button:hover {
+  background: #e0e0e0;
+  transform: translateY(-1px);
+}
+
+.kontrola-ilosci input[type='number'] {
+  width: 45px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333d35;
+}
+
+.kontrola-ilosci input::-webkit-outer-spin-button,
+.kontrola-ilosci input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.kontrola-ilosci input[type='number'] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.cena-pozycji {
+  font-weight: bold;
+  color: #2e6f40;
+  font-size: 16px;
+  min-width: 85px;
+  text-align: right;
+}
+
+.btn-delete {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.btn-delete:hover {
+  background: #cc3b3b;
+  transform: translateY(-1px);
+}
+
+/* FORMULARZE */
+.podsumowanie-ceny {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.podsumowanie-ceny hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+.suma-calkowita {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2e6f40;
+}
+
+.pole-formularza {
+  margin-bottom: 15px;
+}
+.pole-formularza label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.pole-formularza input,
+.pole-formularza select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ZAMÓWIENIA */
+.naglowek-sekcji {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.karta-zamowienia {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.naglowek-zamowienia {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #2e6f40;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.brak-wynikow {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* STOPKA */
+footer {
+  background: #333d35;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  font-size: 14px;
+}
+
+/* RESPONSYWNOŚĆ */
+@media (min-width: 769px) {
+  main.kontener:has(.sekcja-kasy) {
+    display: flex;
+    gap: 40px;
+  }
+
+  .sekcja-koszyka {
+    flex: 2;
+  }
+
+  .sekcja-kasy {
+    flex: 1;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .kontrola-sklepu {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #wyszukiwarka {
+    width: 100%;
+  }
+
+  .filtry {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid-produktow {
+    grid-template-columns: 1fr;
+  }
+
+  .karta-produktu h3 {
+    font-size: 14px;
+  }
+
+  .element-koszyka {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .prawa-strona-koszyk {
+    width: 100%;
+  }
+  .grid-produktow {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+
+  .karta-produktu h3 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twój Koszyk - EKO Market</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img
+          src="../assets/favicon.svg"
+          alt="Logo EKO Market"
+          width="30"
+          height="30"
+        />
+        EKO Market
+      </a>
+      <nav>
+        <a href="../index.html">Sklep</a>
+        <a href="./cart.html" class="active"
+          >Koszyk (<span id="licznik-koszyka">0</span>)</a
+        >
+        <a href="./orders.html">Zamówienia</a>
+      </nav>
+    </header>
+
+    <main class="kontener">
+      <section class="sekcja-koszyka">
+        <h2>Twój Koszyk</h2>
+        <div id="lista-koszyka"></div>
+      </section>
+
+      <section class="sekcja-kasy">
+        <h2>Podsumowanie i Kasa</h2>
+        <div class="podsumowanie-ceny">
+          <p>Wartość produktów: <span id="suma-produktow">0.00</span> zł</p>
+          <p>Dostawa: <span id="koszt-dostawy">0.00</span> zł</p>
+          <hr />
+          <p class="suma-calkowita">
+            Razem: <span id="suma-calkowita">0.00</span> zł
+          </p>
+        </div>
+
+        <form id="formularz-zamowienia">
+          <h3>Dane do dostawy</h3>
+          <div class="pole-formularza">
+            <label for="imie">Imię i nazwisko</label>
+            <input type="text" id="imie" required placeholder="Jan Kowalski" />
+          </div>
+          <div class="pole-formularza">
+            <label for="email">Adres E-mail</label>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="jan@przyklad.pl"
+            />
+          </div>
+          <div class="pole-formularza">
+            <label for="adres">Adres (Ulica, Nr, Kod, Miasto)</label>
+            <input
+              type="text"
+              id="adres"
+              required
+              placeholder="Zielona 12/4, 00-001 Warszawa"
+            />
+          </div>
+          <div class="pole-formularza">
+            <label for="dostawa">Metoda dostawy</label>
+            <select id="dostawa">
+              <option value="rower">Eko-Kurier rowerowy (0-15 zł)</option>
+              <option value="paczkomat">
+                Paczkomat - eko opakowanie (12 zł)
+              </option>
+            </select>
+          </div>
+          <button type="submit" class="btn-kup">Zamawiam i płacę</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 EKO Market. Opakowania 100% zero-waste.</p>
+    </footer>
+
+    <script src="../scripts/cart.mjs" type="module"></script>
+  </body>
+</html>

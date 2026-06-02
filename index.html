@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EKO Market - Sklep Spożywczy</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./index.html">
+        <img
+          src="./assets/favicon.svg"
+          alt="Logo EKO Market"
+          width="30"
+          height="30"
+        />
+        EKO Market
+      </a>
+      <nav>
+        <a href="./index.html" class="active">Sklep</a>
+        <a href="./pages/cart.html"
+          >Koszyk (<span id="licznik-koszyka">0</span>)</a
+        >
+        <a href="./pages/orders.html">Zamówienia</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Świeżość prosto z natury</h1>
+      <p>Wybierz certyfikowane produkty 100% BIO od lokalnych dostawców.</p>
+    </section>
+
+    <div class="kontrola-sklepu">
+      <input type="text" id="wyszukiwarka" placeholder="Szukaj produktu..." />
+      <div class="filtry">
+        <button class="btn-filtr active" data-kat="wszystkie">Wszystko</button>
+        <button class="btn-filtr" data-kat="vegetables">Warzywa</button>
+        <button class="btn-filtr" data-kat="fruits">Owoce</button>
+        <button class="btn-filtr" data-kat="pantry">Spiżarnia</button>
+      </div>
+    </div>
+
+    <main class="kontener">
+      <div id="grid-produktow" class="grid-produktow"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 EKO Market. Opakowania 100% zero-waste.</p>
+    </footer>
+
+    <script src="./scripts/index.mjs" type="module"></script>
+  </body>
+</html>

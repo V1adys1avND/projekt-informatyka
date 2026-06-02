@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moje Zamówienia - EKO Market</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html">
+        <img
+          src="../assets/favicon.svg"
+          alt="Logo EKO Market"
+          width="30"
+          height="30"
+        />
+        EKO Market
+      </a>
+      <nav>
+        <a href="../index.html">Sklep</a>
+        <a href="./cart.html">Koszyk (<span id="licznik-koszyka">0</span>)</a>
+        <a href="./orders.html" class="active">Zamówienia</a>
+      </nav>
+    </header>
+
+    <main class="kontener-waski">
+      <div class="naglowek-sekcji">
+        <h2>Historia zamówień</h2>
+      </div>
+
+      <div id="lista-zamowien"></div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 EKO Market. Opakowania 100% zero-waste.</p>
+    </footer>
+
+    <script src="../scripts/orders.mjs" type="module"></script>
+  </body>
+</html>

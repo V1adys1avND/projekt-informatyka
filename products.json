@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Local Carrots 1kg",
+    "price": 4.99,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/5084515/pexels-photo-5084515.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Fresh BIO Broccoli 1pc",
+    "price": 6.8,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/37091856/pexels-photo-37091856.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "BIO Cherry Tomatoes 250g",
+    "price": 7.5,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/5418661/pexels-photo-5418661.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 4,
+    "name": "Organic Potatoes 2kg",
+    "price": 8.4,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/35113272/pexels-photo-35113272.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Organic Garlic Bunch (3pcs)",
+    "price": 5.99,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/36936000/pexels-photo-36936000.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Fresh BIO Spinach Leaves 200g",
+    "price": 6.9,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/37113938/pexels-photo-37113938.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 7,
+    "name": "Organic Red Onion 1kg",
+    "price": 5.2,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/37091858/pexels-photo-37091858.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 8,
+    "name": "BIO Field Cucumbers 1kg",
+    "price": 9.5,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/5425794/pexels-photo-5425794.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 9,
+    "name": "BIO Red Bell Pepper 500g",
+    "price": 11.2,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/30893241/pexels-photo-30893241.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 10,
+    "name": "Fresh Radish Bunch",
+    "price": 3.5,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/16723207/pexels-photo-16723207.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 11,
+    "name": "Organic Green Zucchini 1kg",
+    "price": 7.8,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/7890188/pexels-photo-7890188.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 12,
+    "name": "BIO Hass Avocado 1pc",
+    "price": 6.49,
+    "category": "vegetables",
+    "image": "https://images.pexels.com/photos/4975353/pexels-photo-4975353.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 13,
+    "name": "Organic Jonagored Apples 1kg",
+    "price": 6.99,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/30893357/pexels-photo-30893357.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 14,
+    "name": "Certified BIO Bananas 1kg",
+    "price": 8.99,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/29994023/pexels-photo-29994023.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 15,
+    "name": "BIO Blueberries 250g",
+    "price": 13.5,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/3084068/pexels-photo-3084068.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 16,
+    "name": "Organic Lemons 500g",
+    "price": 7.2,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/27556847/pexels-photo-27556847.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 17,
+    "name": "Organic Dessert Oranges 1kg",
+    "price": 9.99,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/30503649/pexels-photo-30503649.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 18,
+    "name": "Organic Strawberries 500g",
+    "price": 15.8,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/15819131/pexels-photo-15819131.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 19,
+    "name": "BIO Conference Pears 1kg",
+    "price": 8.5,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/30862951/pexels-photo-30862951.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 20,
+    "name": "Fresh BIO Raspberries 125g",
+    "price": 10.9,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/4113810/pexels-photo-4113810.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 21,
+    "name": "Organic Kiwi 1pc",
+    "price": 2.8,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/13643025/pexels-photo-13643025.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 22,
+    "name": "Organic Mango Ready-to-eat 1pc",
+    "price": 9.5,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/37065935/pexels-photo-37065935.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 23,
+    "name": "BIO Red Watermelon 1kg",
+    "price": 5.5,
+    "category": "fruits",
+    "image": "https://images.pexels.com/photos/2562548/pexels-photo-2562548.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 24,
+    "name": "Natural BIO Linden Honey 400g",
+    "price": 29.9,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/6660246/pexels-photo-6660246.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 25,
+    "name": "Extra Virgin Olive Oil 500ml",
+    "price": 38.5,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/3737644/pexels-photo-3737644.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 26,
+    "name": "BIO Jumbo Oat Flakes 500g",
+    "price": 5.4,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/4856744/pexels-photo-4856744.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 27,
+    "name": "Natural Raspberry Juice 250ml",
+    "price": 11.9,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/7262794/pexels-photo-7262794.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 28,
+    "name": "Organic Arabica Coffee Beans 250g",
+    "price": 26.99,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/7262705/pexels-photo-7262705.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 29,
+    "name": "BIO Loose Green Tea 100g",
+    "price": 14.5,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/7055115/pexels-photo-7055115.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 30,
+    "name": "Organic Whole Grain Jasmine Rice 500g",
+    "price": 7.9,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/8287244/pexels-photo-8287244.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 31,
+    "name": "BIO Unroasted Buckwheat 500g",
+    "price": 8.2,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/7055114/pexels-photo-7055114.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 32,
+    "name": "Strawberry Jam Apple Sweetened 200g",
+    "price": 9.8,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/9475697/pexels-photo-9475697.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 33,
+    "name": "100% Organic Peanut Butter 300g",
+    "price": 16.9,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/3737648/pexels-photo-3737648.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 34,
+    "name": "BIO White Spelt Flour 1kg",
+    "price": 8.9,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/3737639/pexels-photo-3737639.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 35,
+    "name": "Unfiltered Apple Cider Vinegar 250ml",
+    "price": 12.5,
+    "category": "pantry",
+    "image": "https://images.pexels.com/photos/8580742/pexels-photo-8580742.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+]
